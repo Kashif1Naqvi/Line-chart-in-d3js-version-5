@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Line Chart</title>
+</head>
+<body>
+    <style>
+      .line-path{
+        stroke: lightseagreen;
+        fill: none;
+        stroke-width: 5;
+        stroke-linejoin: round;
+        
+      }
+      .circle-path{
+        stroke: rgb(104, 180, 243);
+        fill:rgb(107, 185, 181);
+
+      }
+      .tick line{
+        stroke:lightgrey;
+        opacity: .9;
+      }
+      text{
+        color:lightseagreen;
+        font-size: larger;
+      }
+      .text-data{
+        fill: lightseagreen;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+      }
+    </style>
+    <div id="line"></div>
+    <script src="d3.min.js"></script>
+    <script src="index.js" ></script>
+</body>
+</html>
